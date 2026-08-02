@@ -1,8 +1,25 @@
 aid: tellapart
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tellapart.png
 name: TellApart
-description: 'TellApart is a company surfaced as a portfolio company of greylock and added to the API
-  Evangelist network as a stub for enrichment. Sector: applications. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'TellApart was a predictive-marketing and cross-device retargeting technology company founded
+  in 2009 by former Google AdWords-API engineers Josh McFarland and Mark Ayzenshtat. Its cloud-based customer
+  data platform unified shopper profiles across channels and devices and used machine-learning scoring to
+  power dynamic product ads and direct-response retargeting for retailers such as Neiman Marcus, Wayfair,
+  Sur La Table and Pottery Barn. TellApart was acquired by Twitter in April 2015 for roughly $533M in stock
+  and folded into Twitter''s advertising business; it no longer operates as an independent company and the
+  tellapart.com domain is now parked with no live developer or API surface. Surfaced as a Greylock portfolio
+  company and added to the API Evangelist network as a stub for enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/tellapart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,22 @@ x-backed-by:
 - greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: twitter
+x-acquired-date: '2015-04'
+x-acquired-amount-usd: 533000000
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Applications
+- Advertising
+- Marketing
+- Retargeting
+- Machine Learning
+- Customer Data Platform
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
+  url: https://tellapart.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
