@@ -31,7 +31,7 @@ x-status: defunct
 x-acquired-by: twitter
 x-acquired-date: '2015-04'
 x-acquired-amount-usd: 533000000
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
