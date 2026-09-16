@@ -44,7 +44,7 @@ x-acquired-date: 2015-04
 x-acquired-amount-usd: 533000000
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Application
@@ -54,6 +54,7 @@ tags:
 - Machine-Learning
 - Customer Data Platform
 - Acquired
+- Defunct
 tags_raw:
 - Company
 - Applications
@@ -63,6 +64,7 @@ tags_raw:
 - Machine Learning
 - Customer Data Platform
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
