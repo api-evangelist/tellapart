@@ -51,7 +51,7 @@ tags:
 - Advertising
 - Marketing
 - Retargeting
-- Machine-Learning
+- Machine Learning
 - Customer Data Platform
 - Acquired
 - Defunct
@@ -65,6 +65,7 @@ tags_raw:
 - Customer Data Platform
 - Acquired
 - Defunct
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
